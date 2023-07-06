@@ -16,7 +16,10 @@ public class Main {
         service.addProduct(new Product( "Watee", "pen drive", "Blue Table",2027));
         service.addProduct(new Product( "Jak", "Laptop", "pink Table",2028));
 
-
-        List<Product> Products =service.getAllProducts();
+// Using for loop
+        List<Product> products =service.getAllProducts();
+         for(Product p : products){
+             System.out.println(p);
+         }
     }
 }
