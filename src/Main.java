@@ -21,5 +21,6 @@ public class Main {
          for(Product p : products){
              System.out.println(p);
          }
+         System.out.print("===================================================");
     }
 }
