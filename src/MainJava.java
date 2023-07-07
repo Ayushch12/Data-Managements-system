@@ -1,6 +1,8 @@
 public class MainJava {
     public static void main(String[] args) {
-        System.out.print("Hello nepal");
-        System.out.print("#####");
+
+        //The code below prints text to the screen
+        System.out.println("Hello nepal");
+        //System.out.println("#####");
     }
 }
