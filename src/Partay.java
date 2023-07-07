@@ -18,7 +18,11 @@ public class Partay {
         String pokemon4 = scan.nextLine();
 
 
-
+System.out.println("Here are your pokemon!");
+        System.out.println(pokemon1);
+        System.out.println(pokemon2);
+        System.out.println(pokemon3);
+        System.out.println(pokemon4);
 
     }
 }
