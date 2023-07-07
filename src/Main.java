@@ -17,10 +17,15 @@ public class Main {
         service.addProduct(new Product( "Jak", "Laptop", "pink Table",2028));
 
 // Using for loop
-        List<Product> products =service.getAllProducts();
-         for(Product p : products){
-             System.out.println(p);
-         }
+        //List<Product> products =service.getAllProducts();
+        // for(Product p : products){
+         //    System.out.println(p);
+        // }
          System.out.print("===================================================");
+
+         System.out.println("a Particular product");
+
+         Product p = service.getProduct("Logi Mouse");
+System.out.println(p);
     }
 }
