@@ -6,5 +6,10 @@ public class BooleanInJava {
 if(true) {
     System.out.println("We are in paris");
 }
+
+
+        if(false) {
+            System.out.println("We are in paris");
+        }
     }
 }
