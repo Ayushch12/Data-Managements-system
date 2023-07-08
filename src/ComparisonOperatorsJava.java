@@ -10,9 +10,9 @@ public class ComparisonOperatorsJava {
         double a = 5.2;
         double b = 4;
 
-        boolean c = (a != b );
-
-        System.out.println(c);
+        if( a == 2.4){
+            System.out.println("They are equal");
+        }
 
     }
 }
