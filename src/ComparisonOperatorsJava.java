@@ -14,6 +14,12 @@ public class ComparisonOperatorsJava {
             System.out.println("They are equal");
         }
 
+        if( a > 7){
+            System.out.println("Greater than 7");
+        }
+
+        if(true || false) {
+            System.out.println("a is 2.4 or 2.5");
+        }
     }
 }
- //output : True
