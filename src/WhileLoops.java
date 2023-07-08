@@ -1,12 +1,19 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class WhileLoops {
     public static void main(String[] args) {
 
-        int a = 0;
+       String sentence = "flapjacks are awesome!";
+       Scanner scan = new Scanner(sentence);
+        ArrayList<String> words = new ArrayList<String> ();
 
-        while (a < 10) {
-           System.out.println("a is less than 10" + a);
-           a++;
+        while (scan.hasNext()) {
+            words.add(scan.next());
 
         }
+        System.out.println(words);
+
+
     }
 }
