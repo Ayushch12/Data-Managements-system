@@ -11,6 +11,9 @@ int b = 4;
 
         boolean c = !((a < b) && true) ;
 
+        if (a < b && isSunny ()){
+            System.out.println("Its a great day");
+        }
         System.out.println(c);
     }
 }
