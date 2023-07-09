@@ -9,7 +9,7 @@ int a =3 ;
 int b = 4;
 
 
-        boolean c = a > b ;
+        boolean c = !((a < b) && true) ;
 
         System.out.println(c);
     }
