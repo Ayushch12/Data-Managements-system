@@ -3,5 +3,6 @@ public class Conditional {
 
 int a = (7>3) ? 7:3 ;
 
+System.out.println(a);
     }
 }
