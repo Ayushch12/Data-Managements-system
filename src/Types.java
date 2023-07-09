@@ -1,10 +1,15 @@
 public class Types {
     public static void main(String[] args) {
 
-        int a = (int) 0.5;
+    byte a;
+    short b;
+    char c;
+    int d= 400;
+    long e;
+    float f;
+    double g;
 
-        System.out.println(a);
-
+double ex = d;
 
 
     }
