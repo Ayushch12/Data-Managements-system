@@ -1,9 +1,9 @@
 public class StringInteger {
     public static void main(String[] args) {
 
+        int n = Integer.parseInt("3");
 
-        String s = "102";
-        System.out.println(Integer.parseInt(s) + 4);
+  System.out.println(n+4);
 
     }
 }
