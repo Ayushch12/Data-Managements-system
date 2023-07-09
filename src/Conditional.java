@@ -3,7 +3,7 @@ public class Conditional {
 
 String a = "howdy";
 
-double result = a.equals("hello") ? 0.5 : 0.25;
+double result = a.equals("howdy") ? 0.5 : 0.25;
 
 System.out.println(result);
     }
