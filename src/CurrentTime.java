@@ -10,6 +10,9 @@ public class CurrentTime {
 
         SimpleDateFormat  timeFormat = new SimpleDateFormat("hh:mm:ss");
         System.out.println(timeFormat.format(currentDate));
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+        System.out.println(dateFormat.format(currentDate));
     }
 
 }
