@@ -13,6 +13,10 @@ public class CurrentTime {
 
         SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
         System.out.println(dateFormat.format(currentDate));
+
+        SimpleDateFormat dayOfTHEWEEKFormat = new SimpleDateFormat("EEEE");
+        System.out.println(dayOfTHEWEEKFormat.format(currentDate));
     }
+
 
 }
