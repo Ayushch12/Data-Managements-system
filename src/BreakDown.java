@@ -2,19 +2,13 @@ public class BreakDown {
 
     public static void main (String[] args) {
 
-      int i = 1;
+        for (int i = 0; i < 5; i++){
 
-      switch(i) {
-          case 0 :
-              System.out.println("Zero");
-              break;
-          case 1:
-              System.out.println("One!");
-              break;
-          default:
-              System.out.println("WTF man??");
-              break;
-      }
-
+            for (int j = 0; j < 3; j++){
+                System.out.println(i + ", " + j);
+                break;
+            }
+        }
     }
 }
+
