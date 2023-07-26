@@ -13,4 +13,9 @@ public class Returnstatements {
         return a+b;
     }
 
+    public static String caps(){
+return "" ;
+
+    }
 }
+
