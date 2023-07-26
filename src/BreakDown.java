@@ -2,14 +2,18 @@ public class BreakDown {
 
     public static void main (String[] args) {
 
-      int [] numbers = { 10, 20, 30, 40 ,50};
+      int i = 1;
 
-      for (int i = 0; i < numbers.length; i++){
-          if(numbers [i] == 30){
-              break; // when we use break.
-          }
-
-          System.out.println(numbers[i]);
+      switch(i) {
+          case 0 :
+              System.out.println("Zero");
+              break;
+          case 1:
+              System.out.println("One!");
+              break;
+          default:
+              System.out.println("WTF man??");
+              break;
       }
 
     }
