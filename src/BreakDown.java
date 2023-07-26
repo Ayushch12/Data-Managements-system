@@ -2,13 +2,15 @@ public class BreakDown {
 
     public static void main (String[] args) {
 
-        int i = 0;
+      int [] numbers = { 10, 20, 30, 40 ,50};
 
-        while (i <3 ) {
-            System.out.println("Hi!");
-            //break;
-            i++;
-        }
+      for (int i = 0; i < numbers.length; i++){
+          if(numbers [i] == 30){
+              break; // when we use break.
+          }
+
+          System.out.println(numbers[i]);
+      }
 
     }
 }
