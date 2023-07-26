@@ -13,6 +13,20 @@ public static void main (String [] args){
 
     //ChatAt case
     System.out.println("First char: " + name.charAt(2));
+
+    //Lengths
+    System.out.println("Length: " + name.length());
+
+    // Char
+    System.out.println("Last char: " + name.charAt(3));
+
+    //Substring
+    System.out.println("Substring: " + name.substring(10, 13));
+
+
+
 }
+
+
 
 }
