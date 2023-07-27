@@ -2,22 +2,20 @@ public class SwitchStatement {
 
     public static void main(String[] args ){
 
-        int day = 0;
+      String dog = "pomeranian";
 
-        switch (day){
-            case 1:
-                System.out.println("Sunday");
-                break;
-            case 2:
-                System.out.println("Monday");
-               break;
-            case 3:
-                System.out.println("Tuesday");
+      switch (dog){
+          case "pomeranian":
+              System.out.println("small dog");
+              break;
+          case "great dane":
+              System.out.println("large dog");
+              break;
 
-            default:
-                System.out.println("Not a valid day number");
+          default :
+              System.out.println("try a different");
 
-        }
+      }
 
     }
 
