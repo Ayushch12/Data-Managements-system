@@ -8,8 +8,12 @@ public class TryCatch {
        System.out.println("What is your fav number?");
 
       try{
-          int[] a = null ;
+          int[] a = {4} ;
           System.out.println(a[1]);
+
+      } catch (NullPointerException e){
+          System.out.println("Your array is null");
+
       } catch (Exception e){
           System.out.println("Your array is null");
       }
