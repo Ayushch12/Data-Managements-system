@@ -4,7 +4,7 @@ public class TryCatch {
 
         try{
             int [] a = {4, 5 ,6};
-            System.out.println(a[3]);
+            System.out.println(a[0]);
         } catch (Exception e){
             System.out.println("An exception Happened!");
         }
