@@ -4,11 +4,12 @@ public class ArraList {
 
     public  static void main (String[] args ){
 
-        String[] fruits = new String[3];
+        String[] fruits = new String[4];
         fruits[0] = "Mango";
         fruits[1] = "Apple";
         fruits[2] = "Strawberry";
-        System.out.println(fruits[2]);
+        fruits[3] = "Orange";
+        System.out.println(fruits[3]);
 
 
         ArrayList fruitList = new ArrayList();
