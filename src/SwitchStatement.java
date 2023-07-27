@@ -2,7 +2,7 @@ public class SwitchStatement {
 
     public static void main(String[] args ){
 
-        int day = 2;
+        int day = 0;
 
         switch (day){
             case 1:
@@ -13,6 +13,9 @@ public class SwitchStatement {
                break;
             case 3:
                 System.out.println("Tuesday");
+
+            default:
+                System.out.println("Not a valid day number");
 
         }
 
