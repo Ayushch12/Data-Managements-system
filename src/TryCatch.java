@@ -7,16 +7,17 @@ public class TryCatch {
        Scanner scan = new Scanner(System.in);
        System.out.println("What is your fav number?");
 
-       try {
-           int n = scan.nextInt() ;
-           System.out.println(n);
-       } catch (Exception e) {
-           System.out.println("Sorry, Please enter a number");
-       }
+      try{
+          int[] a = null ;
+          System.out.println(a[1]);
+      } catch (Exception e){
+          System.out.println("Your array is null");
+      }
 
 
     }
 }
+
  //In Java, try and catch are used for exception handling, allowing you to handle errors and exceptional
 // situations in your code gracefully. When certain exceptional situations occur during program
 // execution, Java generates an exception object. If these exceptions are not handled properly,
