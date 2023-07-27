@@ -17,6 +17,7 @@ public class ArraList {
         fruitList.add("Apple");
         fruitList.add("Strawberry");
 
+        fruitList.remove("Mango");
         System.out.println(fruitList);
 
     }
