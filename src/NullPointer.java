@@ -9,3 +9,7 @@ public class NullPointer {
 
     }
 }
+// NEXTINT : In Java, nextInt() is a method provided by the java.util.Scanner class, which is used for
+// reading input from the user or a data stream. It is particularly useful when you want to read integer
+// values from the standard input or any other input source.
+
