@@ -5,6 +5,7 @@ public class Exceptions {
     public static void main (String[] args){
 
         ArrayList <String> list = new ArrayList<String> () ;
-        list.get(0) ;
+        list.add("book");
+        System.out.println(list.get(0));
     }
 }
