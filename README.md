@@ -1,8 +1,8 @@
-# Data Management System
+# Système de gestion des données
 
-This is a Demo project showcasing a Data Management System that outputs data from various products.
+Il s'agit d'un projet de démonstration présentant un système de gestion de données qui génère des données à partir de divers produits.
 
 
-## IntelliJ IDEA
+## IDÉE IntelliJ
 
-I have utilized IntelliJ IDEA as my coding environment.
+J'ai utilisé IntelliJ IDEA comme environnement de codage.
