@@ -4,7 +4,7 @@ public class Access1 {
 
 
     //default, public, private and protected
-    int hours = 3;
-    int minutes = 47;
+   public  int hours = 3;
+   public  int minutes = 47;
 
 }
