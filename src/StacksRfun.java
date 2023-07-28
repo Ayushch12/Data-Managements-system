@@ -10,8 +10,8 @@ public class StacksRfun {
         games.add("GTA");
         games.add("Supper monkey ball");
 
-System.out.println(games.pop());
-        System.out.println(games.pop());
-        System.out.println(games.pop());
+
+        System.out.println(games.peek());
+        System.out.println(games);
     }
 }
