@@ -13,6 +13,6 @@ public class StacksRfun {
         tower.add('B');
         tower.add('Y');
 
-        System.out.println(tower.get(2));
+        System.out.println(tower.size());
     }
 }
