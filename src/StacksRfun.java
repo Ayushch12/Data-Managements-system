@@ -4,14 +4,15 @@ public class StacksRfun {
 
     public static void main (String[] args ){
 
-        Stack <String> games = new Stack <String> () ;
-
-        games.add("Call of Duty");
-        games.add("GTA");
-        games.add("Supper monkey ball");
 
 
-        System.out.println(games.peek());
-        System.out.println(games);
+
+        Stack <Character> tower = new Stack <Character> () ;
+
+        tower.add('R');
+        tower.add('B');
+        tower.add('Y');
+
+        System.out.println(tower.get(2));
     }
 }
