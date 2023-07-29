@@ -1,16 +1,22 @@
+import java.util.ArrayList;
+
 public class HappyFunTime {
 
     public static void main (String[] args ){
 
 
+        ArrayList <Integer> numbers = new ArrayList <Integer> ( );
 
-        String [] cars = {"BMW M2","Veloster N", "GTI" };
+        numbers.add(3);
+        numbers.add(7);
+        numbers.add(2);
 
-        for (String car : cars){
+for (int a : numbers){
+    System.out.println(a);
 
-
-            System.out.println(car);
-
+        }
+for(int i = 0; i < numbers.size() ; i++) {
+    System.out.println(numbers.get(i));
         }
 
 
