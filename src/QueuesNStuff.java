@@ -11,7 +11,7 @@ public class QueuesNStuff {
         bbqLine.add("Tyreek");
         bbqLine.add("Susan");
 
-bbqLine.poll();
+System.out.println(bbqLine.peek());
 
         System.out.println(bbqLine);
     }
