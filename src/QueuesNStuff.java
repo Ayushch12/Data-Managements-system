@@ -5,14 +5,14 @@ public class QueuesNStuff {
 
     public static void main (String[] args){
 
-        Queue <String> bbqLine = new LinkedList<String>() ;
+        Queue q = new LinkedList<String>();
 
-        bbqLine.add("Jackson");
-        bbqLine.add("Tyreek");
-        bbqLine.add("Susan");
+        q.add("A");
+        q.add("B");
+        q.add("C");
 
-System.out.println(bbqLine.peek());
+        System.out.println(q.poll());
 
-        System.out.println(bbqLine);
+
     }
 }
