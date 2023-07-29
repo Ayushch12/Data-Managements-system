@@ -7,12 +7,17 @@ public class Account {   // Class Declaration:
 
         Account a = new Account ();    // Object Creation:
 
-        a.age = 34;             // Setting Instance Variables:
-        a.name = "Pablo";       // Setting Instance Variables:
+        a.setName("Pablo");
 
 a.printDetails();
 
+
     }
+public void setName(String name){
+        this.name = name;
+
+}
+
     public void printDetails() {
 
         System.out.println(name + ", " + age);
