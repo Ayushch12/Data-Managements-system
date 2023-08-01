@@ -1,12 +1,16 @@
+import java.util.Scanner;
+
 public class keyword {
     public static  void main (String [] args){
 
+        Scanner scan = new Scanner(System.in);
+        System.out.println(scan.next());
         try {
-         int a = 5 /0;
-        }catch (Exception e){
-          System.out.println(e);
+
+        } catch (Exception e){
+
         }finally {
-            System.out.println("This is in 'Finally',  it always gets ");
+
         }
 
     }
