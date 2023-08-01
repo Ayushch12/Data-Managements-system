@@ -1,12 +1,11 @@
 public class Params {
 
     public static void main (String[] args){
-      saySomething("Dog");
-        saySomething("Tiger");
-        saySomething("Lion");
+   printInfo("Dog", 23);
+
     }
 
-    public static void saySomething(String s){
-        System.out.println(s);
+    public static void printInfo(String name, int age){
+        System.out.println(name + "is" + age + "years old");
     }
 }
