@@ -1,11 +1,10 @@
 public class Params {
 
     public static void main (String[] args){
-   printInfo("Dog", 23);
-
+ System.out.println(add(4, 5));
     }
 
-    public static void printInfo(String name, int age){
-        System.out.println(name + "is" + age + "years old");
+    public static int add(int x ,int y){
+  return x +y;
     }
 }
